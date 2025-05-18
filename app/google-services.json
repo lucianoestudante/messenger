@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "244156652831",
+    "project_id": "messenger-61e28",
+    "storage_bucket": "messenger-61e28.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244156652831:android:561b8767043be7a607e42a",
+        "android_client_info": {
+          "package_name": "com.luciano.messenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGQv_GABy-BMRV0F7iMz0GEXL_9dF0poo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
