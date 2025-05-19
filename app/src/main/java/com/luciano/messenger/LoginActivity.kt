@@ -1,5 +1,6 @@
 package com.luciano.messenger
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -15,6 +16,13 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(binding.root)
+
+
+
+        binding.textCadastro.setOnClickListener {
+            val intent = Intent(this,CadastroActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 }
