@@ -1,9 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+
+    <!-- Estilo base do tema -->
     <style name="Base.Theme.Messenger" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-         <item name="colorPrimary">@color/primaria</item>
+        <!-- Aqui você pode colocar configurações que serão herdadas -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
     </style>
 
-    <style name="Theme.Messenger" parent="Base.Theme.Messenger" />
+    <!-- Tema principal da aplicação -->
+    <style name="Theme.Messenger" parent="Base.Theme.Messenger">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
 </resources>

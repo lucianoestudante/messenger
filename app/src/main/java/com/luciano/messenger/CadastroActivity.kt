@@ -16,16 +16,9 @@ class CadastroActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(binding.root)
 
-        inicializartoolbar()
+
 
     }
 
-    private fun inicializartoolbar() {
-        val toolbar = binding.includetoolbar.tbPrincipal
-        setSupportActionBar( toolbar )
-        supportActionBar?.apply {
-            title = "Faça o seu cadastro"
-            setDisplayHomeAsUpEnabled( true )
-        }
-    }
+
 }

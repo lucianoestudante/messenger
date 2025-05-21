@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="primaria">#0f8068</color>
-    <color name="destaque">#16a984</color>
+    <!-- Cores principais -->
+    <color name="colorPrimary">#00C2CB</color> <!-- Azul Turquesa Vibrante -->
+    <color name="colorPrimaryDark">#009BA3</color> <!-- Versão mais escura -->
+    <color name="colorAccent">#FF6B35</color> <!-- Laranja Coral (botões) -->
+
+    <!-- Cores secundárias -->
+    <color name="colorSecondary">#8F00FF</color> <!-- Roxo Criativo -->
+    <color name="colorHighlight">#4A00E0</color> <!-- Roxo escuro para destaque -->
+
+    <!-- Fundo claro -->
+    <color name="backgroundLight">#F5F5F5</color> <!-- Fundo claro suave -->
+    <color name="textPrimary">#333333</color> <!-- Texto principal escuro -->
+    <color name="textSecondary">#666666</color> <!-- Texto secundário -->
+
+    <!-- Fundo escuro (se quiser usar depois) -->
+    <color name="backgroundDark">#1E2A38</color>
+    <color name="textOnDark">#F5F5F5</color>
+
+    <!-- Cores de destaque e notificações -->
+    <color name="colorNotification">#FFC107</color> <!-- Amarelo para alertas -->
 </resources>
