@@ -16,6 +16,9 @@ class CadastroActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(binding.root)
 
+       binding.btnVoltar.setOnClickListener {
+           finish()
+       }
 
 
     }
