@@ -75,8 +75,8 @@ class CadastroActivity : AppCompatActivity() {
         }.addOnFailureListener { erro ->
             try {
                 throw erro
-            }catch (EmailInvalido: FirebaseAuthInvalidCredentialsException){
-                EmailInvalido.printStackTrace()
+            }catch (emailInvalido: FirebaseAuthInvalidCredentialsException){
+                emailInvalido.printStackTrace()
                 Toast.makeText(this, "E-mail inválido, digite corretamente", Toast.LENGTH_SHORT).show()
             }catch (usuarioExistente: FirebaseAuthUserCollisionException){
                 usuarioExistente.printStackTrace()
