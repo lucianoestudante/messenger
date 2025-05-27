@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Messenger"
         tools:targetApi="31">
-
+        <activity
+            android:name=".PerfilActivity"
+            android:exported="false" />
         <activity
             android:name=".CadastroActivity"
             android:exported="false"
